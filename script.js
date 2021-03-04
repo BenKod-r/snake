@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function() {
     let canvasWidth = 900;
     let canvasHeight = 600;
     let blockSize = 30;
@@ -104,7 +104,7 @@ window.onload = function () {
         this.direction = direction;
         this.ateApple = false;
 
-        this.draw = function () {
+        this.draw = function() {
             ctx.save();
             ctx.fillStyle = "#ff0000";
             for(let i = 0; i < this.body.length; i++){
